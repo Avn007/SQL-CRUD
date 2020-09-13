@@ -1,0 +1,26 @@
+<html>
+    <head><title></title></head>
+    <body style="text-align: center;">
+        <form action='/create' method="POST">
+            <input name="name">
+            <input name="regno">
+            <input type="number" name="age">
+            <button type="submit">Create</button>
+        </form>
+
+        <h2>Delete</h2>
+        <form action='/delete' method="POST">
+            <input type="number" name="id">
+            <button type="submit">Delete</button>
+        </form>
+
+        <h2>Update</h2>
+        <form action='/update' method="POST">
+            <input name="name">
+            <input name="regno">
+            <input type="number" name="age">
+            <input type="number" name="id">
+            <button type="submit">Update</button>
+        </form>
+    </body>
+</html>
